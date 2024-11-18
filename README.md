@@ -12,7 +12,6 @@ Windows and Linux builds should work as is but have not yet been tested.
 macOS executables are not "notarized" (code signed), but in my testing it still works.
 
 If macOS refuses to run MArchiveBatchTool, try:
-
 ```
 xattr -rd com.apple.quarantine MArchiveBatchTool *.dylib *.dll
 ```
